@@ -26,7 +26,7 @@ main {
 .name {
   display: flex;
   font-size: 220px;
-  color: turquoise;
+  color: rgb(64, 224, 171);
   font-family: "Playfair Display";
   width: 50%;
   justify-content: center;
@@ -44,14 +44,15 @@ main {
 .pipe {
   position: absolute;
   right: 400px;
-  background-color: aliceblue;
+  background-color: rgb(248, 238, 202);
   height: 100%;
   width: 200px;
 }
 
 #cut-diamond {
   border-style: solid;
-  border-color: transparent transparent turquoise transparent;
+  border-color: transparent transparent rgb(64, 224, 171) transparent;
+  /* border-color: transparent transparent rgb(64, 224, 208) transparent; */
   border-width: 0 25px 25px 25px;
   height: 0;
   width: 50px;
@@ -67,6 +68,6 @@ main {
   width: 0;
   height: 0;
   border-style: solid;
-  border-color: turquoise transparent transparent transparent;
+  border-color: rgb(64, 224, 171) transparent transparent transparent;
   border-width: 70px 50px 0 50px;
 }
